@@ -1,4 +1,3 @@
-
 // FRONT ************************
 const controlsFront = document.querySelectorAll(".control-front");
 let currentItemFront = 0;
@@ -10,17 +9,14 @@ controlsFront.forEach((control) => {
         const isLeft = control.classList.contains("arrow-left");
         
         if(isLeft){
-            if(currentItemFront == maxitemsFront -2 ){
+            if(currentItemFront == maxitemsFront - 1 ){
                 currentItemFront -=1;
             }else{
-                currentItemFront -=2;
+                currentItemFront -=1;
             }
             
         }else{
-            currentItemFront +=2;
-            if(currentItemFront == maxitemsFront-1){
-                currentItemFront -= 1; 
-            }
+            currentItemFront +=1;
         }
 
         if(currentItemFront >= maxitemsFront){
@@ -28,13 +24,13 @@ controlsFront.forEach((control) => {
         }
 
         if(currentItemFront < 0){
-            currentItemFront = maxitemsFront - 2;
+            currentItemFront = maxitemsFront - 1;
         }
 
         itemsFront.forEach(item => item.classList.remove("current-item"));
 
         itemsFront[currentItemFront].scrollIntoView({
-            inline: "start",
+            inline: "center",
             behavior: "smooth",
             block: "nearest"
         });
@@ -57,17 +53,14 @@ controlsBack.forEach((control) => {
         const isLeft = control.classList.contains("arrow-left");
         
         if(isLeft){
-            if(currentItemBack == maxitemsBack - 2 ){
+            if(currentItemBack == maxitemsBack - 1 ){
                 currentItemBack -=1;
             }else{
-                currentItemBack -=2;
+                currentItemBack -=1;
             }
             
         }else{
-            currentItemBack +=2;
-            if(currentItemBack == maxitemsBack - 1){
-                currentItemBack -= 1; 
-            }
+            currentItemBack +=1;
         }
 
         if(currentItemBack >= maxitemsBack){
@@ -75,13 +68,13 @@ controlsBack.forEach((control) => {
         }
 
         if(currentItemBack < 0){
-            currentItemBack = maxitemsBack - 2;
+            currentItemBack = maxitemsBack - 1;
         }
 
         itemsBack.forEach(item => item.classList.remove("current-item"));
 
         itemsBack[currentItemBack].scrollIntoView({
-            inline: "start",
+            inline: "center",
             behavior: "smooth",
             block: "nearest"
         });
