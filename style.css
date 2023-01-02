@@ -5,8 +5,9 @@
 }
 
 :root{
-    --primary-color: rgba(104, 24, 181, 1);
-    --secondary-color: rgba(209, 189, 238, 1);
+    --primary-color: rgba(47, 35, 37, 1);
+    --secondary-color: rgba(236, 214, 196, 1);
+    --tertiary-color: rgba(164, 90, 73, 1);
 }
 
 html {
@@ -50,6 +51,7 @@ nav{
 
 #navigation{
     background-color: var(--primary-color);
+    background-image: linear-gradient(to right, var(--primary-color), var(--tertiary-color));
 }
 
 .menu {
@@ -82,7 +84,8 @@ nav{
 
 /* HOME **************************************** */
 #home {    
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
+    background-image: linear-gradient(to right, var(--primary-color), var(--tertiary-color));
 }
 
 #home .wrapper{
@@ -202,6 +205,8 @@ nav{
 
 #sobre{
     background-color: var(--primary-color);
+    background-image: linear-gradient(to right, var(--primary-color), var(--tertiary-color));
+    
 }
 
 #sobre .wrapper{
@@ -317,6 +322,7 @@ nav{
 
 #contato{
     background-color: var(--primary-color);
+    background-image: linear-gradient(to right, var(--primary-color), var(--tertiary-color));
 }
 
 #contato .wrapper{
@@ -380,25 +386,17 @@ nav{
     }
 }
 
-/* BREAK=POINT SMARTPHONE */
+/* BREAK=POINT SMARTPHONE  ----- Em produção*/
 @media(max-width: 26rem){
-
-    /* nao está funcionando */
-    /* *::-webkit-scrollbar{
-        scrollbar-width: none;    
-        display: none;
-        overflow-x: auto;
-        -ms-overflow-style: none;
-        overflow-x: auto;
-    } */
 
     .wrapper{
         width: min(25rem);
         margin-inline: 0;
         padding-inline: 1rem;
     }
+    /* NAVIGATION ******** */
     
-
+    
     /* HOME ******* */
     #home {    
         background-color: var(--primary-color);
