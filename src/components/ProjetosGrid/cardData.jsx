@@ -1,22 +1,22 @@
 import DoctorCare from "./assets/DoctorCare.png";
-import FlexTurismos from "./assets/FlexTurismos.png"
+import Dall from "./assets/Dall.png"
 
 const cardData=[
     {
         id: 1,
-        imagem: DoctorCare,
-        nome: 'DoctorCare',
-        tecnologias: 'HTML | CSS | JS',
-        site: '',
+        imagem: Dall,
+        nome: 'DallTech',
+        tecnologias: 'React',
+        site: 'https://gustavomacrini.github.io/Dall_React/',
         repositorio: '',
     },
     {
         id: 2,
-        imagem: FlexTurismos,
-        nome: 'FlexTurismos',
+        imagem: DoctorCare,
+        nome: 'DoctorCare',
         tecnologias: 'HTML | CSS | JS',
-        site: '',
-        repositorio: '',
+        site: 'https://gustavomacrini.github.io/DoctorCare/',
+        repositorio: 'https://github.com/GustavoMacrini/DoctorCare',
     }
 ]
 

@@ -1,13 +1,10 @@
 import './style.css';
 
-
 function ShowButtons(id){
 
     document.getElementById('botao-' + id).classList.toggle('button-hidden');
     document.getElementById('image-' + id).classList.toggle('img-hover');        
-
 }
-
 
 function CardProjeto(props){
     return(
@@ -22,7 +19,7 @@ function CardProjeto(props){
 
             <div id={'botao-' + props.id} className='botoes button-hidden'>
                 <a href={props.site} target='_blank'>Site</a>
-                <a href={props.repositorio}>Repositório</a>
+                <a href={props.repositorio} target='_blank'>Repositório</a>
             </div>
         </div>
     )
