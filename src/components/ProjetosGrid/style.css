@@ -3,3 +3,11 @@
     flex-direction: row;
     gap: 2rem;
 }
+
+/* RESPONSIVO */
+@media(max-width: 26rem){
+    .projetos-cards{
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
