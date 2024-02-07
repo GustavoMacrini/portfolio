@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: rgba(47, 35, 37, 1);
+    --secondary-color: rgba(236, 214, 196, 1);
+    --tertiary-color: rgba(164, 90, 73, 1);
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: 'DM Sans';
+    font-size: 1.6rem;
+  
+    text-align: center;
+  
+    overflow: overlay;
+  
+    background-color: var(--bg-light);
+}
+
+.wrapper{   
+    width: max(90rem);
+    margin-inline: auto;
+    padding-inline: 6rem;       
+}
+
+section{
+    padding-block: 5rem;
+}
+
+svg{
+    fill: var(--secondary-color);
+}
+
+@media(max-width: 26rem){
+
+    .wrapper{
+        width: min(25rem);
+        margin-inline: 0;
+        padding-inline: 1rem;
+    }
+
+    section{
+        padding-block: 2rem;
+    }
+}
