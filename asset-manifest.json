@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e2b53b37.css",
-    "main.js": "/portfolio/static/js/main.aa753c40.js",
+    "main.css": "/portfolio/static/css/main.e8448fb5.css",
+    "main.js": "/portfolio/static/js/main.5ddb2bf3.js",
     "static/media/cadastro-series-.NET.png": "/portfolio/static/media/cadastro-series-.NET.a47857f1a09ca2b13fad.png",
     "static/media/desafios-Csharp.png": "/portfolio/static/media/desafios-Csharp.5604941e6b4bcde6d8b9.png",
     "static/media/orientacao-objeto-.NET.png": "/portfolio/static/media/orientacao-objeto-.NET.c9665c6bb5919d9b6989.png",
@@ -17,17 +17,17 @@
     "static/media/DoctorCare.png": "/portfolio/static/media/DoctorCare.61027d75e8b8bdd9c457.png",
     "static/media/oracle.jpg": "/portfolio/static/media/oracle.ccbc6212010dedec21d7.jpg",
     "static/media/CertificadoCsharp-Udemy.jpg": "/portfolio/static/media/CertificadoCsharp-Udemy.596b349eefb2376da347.jpg",
-    "static/media/FlexTurismos.png": "/portfolio/static/media/FlexTurismos.19daa87432cd02dd5e99.png",
+    "static/media/Dall.png": "/portfolio/static/media/Dall.1df8c4da9494c27b26d4.png",
     "static/media/foto-perfil.jpeg": "/portfolio/static/media/foto-perfil.aea3d823f74fd57e9c50.jpeg",
     "static/media/revicons.eot": "/portfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/portfolio/index.html",
-    "main.e2b53b37.css.map": "/portfolio/static/css/main.e2b53b37.css.map",
-    "main.aa753c40.js.map": "/portfolio/static/js/main.aa753c40.js.map"
+    "main.e8448fb5.css.map": "/portfolio/static/css/main.e8448fb5.css.map",
+    "main.5ddb2bf3.js.map": "/portfolio/static/js/main.5ddb2bf3.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2b53b37.css",
-    "static/js/main.aa753c40.js"
+    "static/css/main.e8448fb5.css",
+    "static/js/main.5ddb2bf3.js"
   ]
 }
