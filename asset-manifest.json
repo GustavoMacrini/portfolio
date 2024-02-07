@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e8448fb5.css",
+    "main.css": "/portfolio/static/css/main.95624521.css",
     "main.js": "/portfolio/static/js/main.5ddb2bf3.js",
     "static/media/cadastro-series-.NET.png": "/portfolio/static/media/cadastro-series-.NET.a47857f1a09ca2b13fad.png",
     "static/media/desafios-Csharp.png": "/portfolio/static/media/desafios-Csharp.5604941e6b4bcde6d8b9.png",
@@ -23,11 +23,11 @@
     "static/media/revicons.ttf": "/portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/portfolio/index.html",
-    "main.e8448fb5.css.map": "/portfolio/static/css/main.e8448fb5.css.map",
+    "main.95624521.css.map": "/portfolio/static/css/main.95624521.css.map",
     "main.5ddb2bf3.js.map": "/portfolio/static/js/main.5ddb2bf3.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8448fb5.css",
+    "static/css/main.95624521.css",
     "static/js/main.5ddb2bf3.js"
   ]
 }
