@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.e2b53b37.css",
+    "main.js": "/portfolio/static/js/main.aa753c40.js",
+    "static/media/cadastro-series-.NET.png": "/portfolio/static/media/cadastro-series-.NET.a47857f1a09ca2b13fad.png",
+    "static/media/desafios-Csharp.png": "/portfolio/static/media/desafios-Csharp.5604941e6b4bcde6d8b9.png",
+    "static/media/orientacao-objeto-.NET.png": "/portfolio/static/media/orientacao-objeto-.NET.c9665c6bb5919d9b6989.png",
+    "static/media/primeiros-passos-.NET.png": "/portfolio/static/media/primeiros-passos-.NET.4ae98923cb09dc8b226f.png",
+    "static/media/conhecendo-JS.png": "/portfolio/static/media/conhecendo-JS.4d9019a66cdaa02a06b6.png",
+    "static/media/introducao-HTML5-CSS3.png": "/portfolio/static/media/introducao-HTML5-CSS3.8f64395ff8cf4cfa9361.png",
+    "static/media/trabalhando-com-modulos-JS.png": "/portfolio/static/media/trabalhando-com-modulos-JS.e519c1b3c487583cde0d.png",
+    "static/media/posicionamento-flexbox.png": "/portfolio/static/media/posicionamento-flexbox.a3afcf6b9bf67eea0509.png",
+    "static/media/primeiros-passos-dev-web.png": "/portfolio/static/media/primeiros-passos-dev-web.3446982359ac9af21047.png",
+    "static/media/recriando-pagina-instagram.png": "/portfolio/static/media/recriando-pagina-instagram.e12b1aa41eda171e777b.png",
+    "static/media/sintaxe-basica-JS.png": "/portfolio/static/media/sintaxe-basica-JS.42e018cfe93015cdf94f.png",
+    "static/media/introducao-JS.png": "/portfolio/static/media/introducao-JS.4ef6c468b991dc04b0bd.png",
+    "static/media/DoctorCare.png": "/portfolio/static/media/DoctorCare.61027d75e8b8bdd9c457.png",
+    "static/media/oracle.jpg": "/portfolio/static/media/oracle.ccbc6212010dedec21d7.jpg",
+    "static/media/CertificadoCsharp-Udemy.jpg": "/portfolio/static/media/CertificadoCsharp-Udemy.596b349eefb2376da347.jpg",
+    "static/media/FlexTurismos.png": "/portfolio/static/media/FlexTurismos.19daa87432cd02dd5e99.png",
+    "static/media/foto-perfil.jpeg": "/portfolio/static/media/foto-perfil.aea3d823f74fd57e9c50.jpeg",
+    "static/media/revicons.eot": "/portfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/portfolio/index.html",
+    "main.e2b53b37.css.map": "/portfolio/static/css/main.e2b53b37.css.map",
+    "main.aa753c40.js.map": "/portfolio/static/js/main.aa753c40.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2b53b37.css",
+    "static/js/main.aa753c40.js"
+  ]
+}
